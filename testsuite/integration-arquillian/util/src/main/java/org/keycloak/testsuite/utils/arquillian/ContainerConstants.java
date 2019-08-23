@@ -46,4 +46,5 @@ public interface ContainerConstants {
     public static final String APP_SERVER_TOMCAT8 = APP_SERVER_PREFIX + "tomcat8";
     public static final String APP_SERVER_TOMCAT9 = APP_SERVER_PREFIX + "tomcat9";
 
+    public static final String APP_SERVER_JWS5 = APP_SERVER_PREFIX + "jws5";
 }

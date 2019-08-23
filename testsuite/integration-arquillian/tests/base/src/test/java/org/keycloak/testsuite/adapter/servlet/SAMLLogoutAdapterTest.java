@@ -41,6 +41,7 @@ import static org.keycloak.testsuite.util.Matchers.isSamlResponse;
 @AppServerContainer(ContainerConstants.APP_SERVER_TOMCAT7)
 @AppServerContainer(ContainerConstants.APP_SERVER_TOMCAT8)
 @AppServerContainer(ContainerConstants.APP_SERVER_TOMCAT9)
+@AppServerContainer(ContainerConstants.APP_SERVER_JWS5)
 public class SAMLLogoutAdapterTest extends AbstractServletsAdapterTest {
 
     private static final String SP_PROVIDED_ID = "spProvidedId";
